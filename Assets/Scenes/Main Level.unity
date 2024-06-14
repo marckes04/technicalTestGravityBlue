@@ -366,37 +366,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03976fbf1c6354ba39d264bcf3954e3a, type: 3}
---- !u!1 &8433525548088845497 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8169010956371081954, guid: 86137073a96e2da44b51cc4a32bda931, type: 3}
-  m_PrefabInstance: {fileID: 8652623912302772246}
-  m_PrefabAsset: {fileID: 0}
---- !u!143 &8433525548098328337
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8433525548088845497}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8652623912302772246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -449,18 +418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ninja
       objectReference: {fileID: 0}
-    - target: {fileID: 9024844730860849638, guid: 86137073a96e2da44b51cc4a32bda931, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9024844730860849638, guid: 86137073a96e2da44b51cc4a32bda931, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8169010956371081954, guid: 86137073a96e2da44b51cc4a32bda931, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8433525548098328337}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86137073a96e2da44b51cc4a32bda931, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
