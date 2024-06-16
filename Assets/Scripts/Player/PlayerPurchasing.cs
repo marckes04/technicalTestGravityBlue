@@ -47,6 +47,6 @@ public class PlayerPurchasing : MonoBehaviour
     {
        
         CloseShopping();
-        DeliverItem.instance.SoldRifle();
+        DeliverItem.instance.SoldSword();
     }
 }
