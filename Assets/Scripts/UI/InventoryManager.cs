@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
+
+    public static InventoryManager instance;
+    public List<Item> items = new List<Item>();
+
     public GameObject InventoryMenu;
     public GameObject Moneycanvas;
     private bool menuActivated ;
 
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    
 
     void Start()
     {
@@ -31,8 +42,15 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite)
+    public void Add(Item item)
     {
-        Debug.Log("ItemName = " + itemName+ "quantity" + quantity + "itemSprite =" + itemSprite);
+        items.Add(item);
     }
+
+    public void Remove(Item item)
+    {
+        items.Remove(item);
+    }
+
+
 }

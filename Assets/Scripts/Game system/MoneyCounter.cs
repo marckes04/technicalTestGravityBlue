@@ -8,7 +8,7 @@ public class MoneyCounter : MonoBehaviour
     public static MoneyCounter instance;
 
     public Text itemText;
-    public int currentMoney = 0;
+    public static int currentMoney = 0;
     private int nullValue = 0;
 
     private void Awake()
@@ -34,18 +34,6 @@ public class MoneyCounter : MonoBehaviour
         UpdateCoins();
     }
 
-    public void DecreaseCoins(int v)
-    {
-        if (currentMoney >= v)
-        {
-            currentMoney -= v;
-            UpdateCoins();
-        }
-        else
-        {
-            Debug.Log("Not enough money to complete the transaction!");
-        }
-    }
 
     public void UpdateCoins()
     {

@@ -8,7 +8,7 @@ public class MoneyCollection : MonoBehaviour
     {
         if (other.tag == "Coin")
         {
-            MoneyCounter.instance.IncreaseCoins(1);
+            MoneyCounter.instance.IncreaseCoins(10);
             Destroy(other.gameObject);
         }
     }
