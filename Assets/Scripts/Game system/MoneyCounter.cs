@@ -35,6 +35,19 @@ public class MoneyCounter : MonoBehaviour
     }
 
 
+    public void DecreaseCoins(int v)
+    {
+        if (currentMoney >= v)
+        {
+            currentMoney -= v;
+            UpdateCoins();
+        }
+        else
+        {
+            Debug.Log("Not enough money to complete the transaction!");
+        }
+    }
+
     public void UpdateCoins()
     {
         itemText.text = currentMoney.ToString();

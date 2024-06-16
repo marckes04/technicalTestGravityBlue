@@ -23,13 +23,14 @@ public class PlayerPurchasing : MonoBehaviour
 
     public void CloseShopping()
     {
+       
         shoppingCentre.SetActive(false);
         Time.timeScale = 1f;
     }
 
     public void BuyPistol()
     {
-       
+      
         CloseShopping();
         DeliverItem.instance.SoldPistol();
     }

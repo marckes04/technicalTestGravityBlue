@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25ba06469b7bb4e41b4277c0dad3143d, type: 3}
   m_Name: Rifle
   m_EditorClassIdentifier: 
-  id: 0
-  itemName: 
-  icon: {fileID: 0}
+  id: 2
+  itemName: Rifle
+  value: 80
+  icon: {fileID: 21300000, guid: 9c5d339e00974274f89253fbf4b68933, type: 3}
